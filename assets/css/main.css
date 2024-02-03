@@ -11,6 +11,7 @@
 .header__navbar-list {
     list-style: none;
     padding-left: 0;
+    margin-top: 8px;
 }
 
 .header__navbar-item {
@@ -25,6 +26,12 @@
     color: var(--white-color);
     text-decoration: none;
     font-weight: 300;
+}
+
+.header__navbar-item:hover, 
+.header__navbar-item-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .header__navbar-item--strong {
