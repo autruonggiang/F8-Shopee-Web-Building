@@ -48,3 +48,8 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.header__navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
