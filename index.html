@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopee</title>
+    <title>Shop</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese">
@@ -20,7 +20,30 @@
             <div class="grid">
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--separate">Tải ứng dụng Shopee</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Tải ứng dụng Shopee
+
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <div class="header__qr-link-child">
+                                            <img src="./assets/img/app_store.png" alt="App Store"
+                                                class="header__qr-download-img">
+                                        </div>
+                                        <div class="header__qr-link-child">
+                                            <img src="./assets/img/app_gallery.png" alt="AppGallery"
+                                                class="header__qr-download-img">
+                                        </div>
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="Google Play"
+                                            class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-label--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link">
