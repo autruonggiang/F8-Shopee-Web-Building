@@ -1,0 +1,43 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #ff6433, #f7472e);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+}
+
+.header__navbar-item, 
+.header__navbar-item-link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.header__navbar-item--strong {
+    font-weight: 400;
+}
+
+.header__navbar-item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #f96e5c;
+    height: 16px;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
