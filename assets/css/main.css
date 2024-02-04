@@ -146,6 +146,26 @@
     display: none;
 }
 
+.header__noti::before {
+    content: "";
+    border-width: 24px 36px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -32px;
+}
+
+.header__noti::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -16px;
+    width: 92px;
+    height: 20px;
+}
+
 @keyframes headerNotiGrowth {
     from {
         opacity: 0;
