@@ -143,6 +143,11 @@
     cursor: default;
     transform-origin: calc(100% - 20px) top;
     animation: headerNotiGrowth ease-in 0.2s;
+    /* -webkit-animation: headerNotiGrowth ease-in 0.2s;
+    -ms-animation: headerNotiGrowth ease-in 0.2s;
+    -o-animation: headerNotiGrowth ease-in 0.2s;
+    -moz-animation: headerNotiGrowth ease-in 0.2s; */
+    will-change: opacity, transform;
     display: none;
 }
 
