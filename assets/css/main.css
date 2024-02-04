@@ -25,6 +25,10 @@
     display: block;
 }
 
+.header__navbar-item--has-noti:hover .header__noti {
+    display: block;
+}
+
 .header__navbar-item, 
 .header__navbar-item-link {
     display: inline-block;
@@ -136,6 +140,22 @@
     width: 404px;
     border: 1px solid #d3d3d3;
     background-color: var(--white-color);
+    cursor: default;
+    transform-origin: calc(100% - 20px) top;
+    animation: headerNotiGrowth ease-in 0.2s;
+    display: none;
+}
+
+@keyframes headerNotiGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
 }
 
 .header__noti-header {
@@ -149,6 +169,7 @@
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 40px;
+    user-select: none;
 }
 
 .header__noti-list {
@@ -186,8 +207,9 @@
 .header__noti-info-name {
     display: block;
     font-size: 1.4rem;
-    color: var(--black-color);
+    color: var(--text-color);
     margin-bottom: 8px;
+    line-height: 1.8rem;
 }
 
 .header__noti-info-desc {
@@ -198,12 +220,15 @@
 }
 
 .header__noti-footer {
-    text-align: center;
-    display: block;
+    display: flex;
 }
 
 .header__noti-footer-btn {
     text-decoration: none;
     color: var(--text-color);
-    padding: 16px 16px;
+    width: 100%;
+    padding: 8px 48px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
 }
