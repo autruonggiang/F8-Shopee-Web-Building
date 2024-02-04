@@ -28,15 +28,10 @@
                                 <img src="./assets/img/qr_code.png" alt="QR Code" class="header__qr-img">
                                 <div class="header__qr-apps">
                                     <a href="" class="header__qr-link">
-                                        <div class="header__qr-link-child">
-                                            <img src="./assets/img/app_store.png" alt="App Store"
-                                                class="header__qr-download-img">
-                                        </div>
-                                        <div class="header__qr-link-child">
-                                            <img src="./assets/img/app_gallery.png" alt="AppGallery"
-                                                class="header__qr-download-img">
-                                        </div>
+                                        <img src="./assets/img/app_store.png" alt="App Store"
+                                            class="header__qr-download-img">
                                     </a>
+
                                     <a href="" class="header__qr-link">
                                         <img src="./assets/img/google_play.png" alt="Google Play"
                                             class="header__qr-download-img">
@@ -149,8 +144,49 @@
 
         <div class="modal__body">
             <div class="modal__inner">
-                <!-- Form login/register -->
+                <!-- Authen form -->
+                <div class="auth-form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form-switch-btn">Đăng nhập</span>
+                    </div>
 
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email hoặc số điện thoại">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            Facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-google"></i>
+                            Google
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

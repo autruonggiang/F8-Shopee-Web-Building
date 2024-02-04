@@ -110,6 +110,7 @@
 .header__qr-apps {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4px;
 }
 
 .header__qr-link:nth-child(1) {
@@ -118,14 +119,6 @@
 
 .header__qr-link:nth-child(2) {
     margin-right: 16px;
-}
-
-.header__qr-link-child:nth-child(1) {
-    margin-bottom: 8px;
-}
-
-.header__qr-link-child:nth-child(2) {
-    margin-bottom: 8px;
 }
 
 .header__qr-download-img {
