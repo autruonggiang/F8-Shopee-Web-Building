@@ -48,6 +48,16 @@ html {
     }
 }
 
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+
+}
+
 /* Modal */
 .modal {
     position: fixed;
@@ -56,6 +66,7 @@ html {
     bottom: 0;
     left: 0;
     display: flex;
+    animation: fadeIn linear 0.1s;
 }
 
 .modal__overlay {
@@ -66,9 +77,12 @@ html {
 }
 
 .modal__body {
+    --growth-from: 0.8;
+    --growth-to: 1;
     margin: auto;
     position: relative;
     z-index: 1;
+    animation: growth linear 0.1s;
 }
 
 /* Buton style */
