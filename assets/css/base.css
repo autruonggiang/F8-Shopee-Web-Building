@@ -3,7 +3,11 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-    --border-color: #dbdbdb
+    --border-color: #dbdbdb;
+
+    --header-height: 120px;
+    --navbar-height: 32px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
