@@ -3,6 +3,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --border-color: #dbdbdb
 }
 
 * {
@@ -72,3 +73,18 @@ html {
     border-radius: 4px;
 }
 
+/* Buton style */
+.btn {
+    min-width: 124px;
+    height: 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
