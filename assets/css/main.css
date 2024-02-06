@@ -505,6 +505,11 @@
     width: 200px;
 }
 
+.header__logo-link {
+    color: transparent;
+    text-decoration: none;
+}
+
 .header__logo-img {
     width: 148px;
     color: var(--white-color);
@@ -765,7 +770,7 @@
 .header__search-option {
     position: absolute;
     right: 0;
-    top: 100%;
+    top: calc(100% - 1px);
     width: 132px;
     list-style: none;
     box-shadow: 0 1px 2px #e0e0e0;
