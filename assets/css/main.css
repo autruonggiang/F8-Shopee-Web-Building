@@ -451,7 +451,7 @@
     top: calc(100% + 4px);
     right: 1px;
     margin-top: 4px;
-    background-color: var(--white-color);
+    background-color: #fdfdfd;
     width: 400px;
     border-radius: 2px;
     box-shadow: 0 1px 3.125px rgba(0, 0, 0, 0.2);
@@ -504,6 +504,10 @@
     font-weight: 500;
     color: var(--text-color);
     margin: 0;
+    max-width: 195px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .header__cart-item-price {
@@ -549,6 +553,10 @@
 .header__cart-view-cart {
     float: right;
     margin: 0 12px 12px 0;
+}
+
+.header__cart-view-cart:hover {
+    background-color: #f05d41;
 }
 
 .header__cart-list::after {
