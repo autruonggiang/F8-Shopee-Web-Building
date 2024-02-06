@@ -156,6 +156,10 @@
     text-decoration: none;
 }
 
+.header__navbar-icon-link:nth-child(2) {
+    margin-left: 3px;
+}
+
 .header__navbar-icon {
     font-size: 1.8rem;
     margin: 0 4px;
