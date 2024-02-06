@@ -83,6 +83,10 @@
     
 }
 
+.header__navbar-user-item--separate {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 .header__navbar-user-item  a {
     text-decoration: none;
     color: var(--text-color);
