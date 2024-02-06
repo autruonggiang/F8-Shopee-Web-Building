@@ -222,7 +222,7 @@
     border: 1px solid #d3d3d3;
     background-color: var(--white-color);
     cursor: default;
-    transform-origin: calc(100% - 20px) top;
+    transform-origin: calc(100% - 32px) top;
     animation: headerNotiGrowth ease-in 0.2s;
     /* -webkit-animation: headerNotiGrowth ease-in 0.2s;
     -ms-animation: headerNotiGrowth ease-in 0.2s;
