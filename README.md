@@ -9,5 +9,5 @@ If [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) do
 Then on Visual Studio Code, open with Live Server (Go Live). The Live Server will run the path by default as `http://127.0.0.1:5500/index.html` to access the website.
 
 ## References
-- Font Awesome: [https://themify.me/themify-icons](https://fontawesome.com/)
+- Font Awesome: https://fontawesome.com
 - F8 Course: https://fullstack.edu.vn/courses/html-css
