@@ -601,4 +601,5 @@
     font-size: 1.4rem;
     line-height: 38px;
     color: var(--text-color);
+    display: block;
 }
