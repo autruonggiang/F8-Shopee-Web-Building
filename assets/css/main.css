@@ -21,6 +21,13 @@
     min-height: 28px;
 }
 
+.header__navbar-item:hover,
+.header__navbar-item:hover .header__navbar-item-link, 
+header__navbar-icon-link:hover { 
+    color: rgba(255, 255, 255, 70%); 
+    cursor: pointer; 
+}
+
 .header__navbar-user {
     display: flex;
     justify-content: center;
