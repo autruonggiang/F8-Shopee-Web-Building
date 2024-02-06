@@ -74,6 +74,7 @@ header__navbar-icon-link:hover {
     position: absolute;
     right: 4px;
     top: -29px;
+    z-index: -1;
 }
 
 .header__navbar-user-menu:after {
@@ -86,9 +87,9 @@ header__navbar-icon-link:hover {
     height: 8px;
 }
 
-.header__navbar-user-item {
+/* .header__navbar-user-item {
     
-}
+} */
 
 .header__navbar-user-item--separate {
     border-top: 1px solid rgba(0, 0, 0, 0.05);
@@ -192,6 +193,7 @@ header__navbar-icon-link:hover {
     border-radius: 2px;
     display: none;
     animation: fadeIn ease-in 0.3s;
+    z-index: 1;
 }
 
 .header__qr::before {
