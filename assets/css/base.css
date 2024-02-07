@@ -43,6 +43,10 @@ html {
     flex-wrap: wrap;
 }
 
+.grid__column {
+    
+}
+
 /* Animation */
 @keyframes fadeIn {
     from {
