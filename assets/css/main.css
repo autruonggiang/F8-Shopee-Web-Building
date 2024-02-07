@@ -1107,7 +1107,19 @@ i.home-product-item__like-icon-fill {
     font-size: 1rem;
     transform: scale(0.8);
     transform-origin: right;
-    color: #d5d5d5
+    color: #d5d5d5;
+    margin-left: auto;
+}
+
+.home-product-item-star--gold {
+    color: var(--star-gold-color);
+
+}
+
+.home-product-item__sold {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-left: 6px;
 }
 
 .home-product-item__origin {
