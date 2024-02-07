@@ -1108,7 +1108,7 @@ i.home-product-item__like-icon-fill {
     transform: scale(0.8);
     transform-origin: right;
     color: #d5d5d5;
-    margin-left: auto;
+    margin: -1px 0 0 auto;
 }
 
 .home-product-item-star--gold {
@@ -1123,15 +1123,21 @@ i.home-product-item__like-icon-fill {
 }
 
 .home-product-item__origin {
+    display: flex;
+    /* justify-content: space-between; */
 
+    margin: 3px 10px 0;
+    color: #595959;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .home-product-item__brand {
-
+    margin-right: auto;
 }
 
 .home-product-item__origin-name {
-
+    /* margin-left: auto; */
 }
 
 .home-product-item__favourite {
