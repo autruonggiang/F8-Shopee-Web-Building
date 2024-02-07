@@ -1049,6 +1049,8 @@ header__navbar-icon-link:hover {
     overflow: hidden;
     display: block;
     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .home-product-item__price {
