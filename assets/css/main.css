@@ -567,6 +567,7 @@ header__navbar-icon-link:hover {
     animation: fadeIn ease-in 0.2s;
     cursor: default;
     display: none;
+    z-index: 1;
 }
 
 .header__cart-heading {
