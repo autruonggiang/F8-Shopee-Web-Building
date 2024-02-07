@@ -890,6 +890,9 @@ header__navbar-icon-link:hover {
 .app__container {
     background-color: #f5f5f5;
 }
+.app__content {
+    padding-top: 36px;
+}
 
 .category {
     border-radius: 2px;
@@ -900,6 +903,7 @@ header__navbar-icon-link:hover {
     color: var(--text-color);
     font-size: 1.7rem;
     padding: 12px 16px;
+    margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -916,9 +920,9 @@ header__navbar-icon-link:hover {
     margin-left: 10px;
 }
 
-.category-item {
+/* .category-item {
 
-}
+} */
 
 .category-item--active .category-item__link {
     color: var(--primary-color);
@@ -948,4 +952,9 @@ header__navbar-icon-link:hover {
 .category-item__link:hover {
     right: -4px;
     color: var(--primary-color);
+}
+
+/* Home sort + filter */
+.home-filter__btn {
+    background-color: var(--white-color);
 }
