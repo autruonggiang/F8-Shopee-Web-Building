@@ -1079,7 +1079,7 @@ header__navbar-icon-link:hover {
 }
 
 .home-product-item__like {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 i.home-product-item__like-icon-fill {
@@ -1105,7 +1105,7 @@ i.home-product-item__like-icon-fill {
 
 .home-product-item__rating {
     font-size: 1rem;
-    transform: scale(0.7);
+    transform: scale(0.8);
     transform-origin: right;
     color: #d5d5d5
 }
