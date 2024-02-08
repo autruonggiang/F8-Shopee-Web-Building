@@ -670,7 +670,7 @@ header__navbar-icon-link:hover {
 }
 
 .header__cart-view-cart:hover {
-    background-color: #f05d41;
+    background-color: #e2492b;
 }
 
 .header__cart-list::after {
@@ -1220,4 +1220,9 @@ i.home-product-item__like-icon-fill {
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.3rem;
+}
+
+.home-product__pagination {
+    margin-top: 48px;
+    margin-bottom: 32px;
 }
