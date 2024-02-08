@@ -854,6 +854,7 @@ header__navbar-icon-link:hover {
     box-shadow: 0 1px 5px #bdbdbd;
     display: none;
     overflow: hidden;
+    z-index: 1;
 }
 
 .header__search-history-heading {
