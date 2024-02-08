@@ -790,6 +790,7 @@ header__navbar-icon-link:hover {
     border-radius: 2px;
     display: none;
     animation: fadeIn ease-in 0.2s;
+    z-index: 1;
 }
 
 .header__search-option::after {
