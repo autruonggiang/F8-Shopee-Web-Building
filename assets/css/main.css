@@ -1027,10 +1027,16 @@ header__navbar-icon-link:hover {
 }
 
 /* Product item */
+.home-product {
+    margin-bottom: 10px;
+}
+
 .home-product-item {
+    display: block;
     position: relative;
     margin-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
+    text-decoration: none;
     background-color: var(--white-color);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
