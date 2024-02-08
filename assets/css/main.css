@@ -913,13 +913,6 @@ header__navbar-icon-link:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.category__heading-icon {
-    font-size: 1.4rem;
-    margin-right: 4px;
-    position: relative;
-    top: -1px;
-}
-
 .category-list {
     padding: 0 0 8px 0;
     list-style: none;
@@ -934,29 +927,16 @@ header__navbar-icon-link:hover {
     color: var(--primary-color);
 }
 
-.category-item--active .category-item__link::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 6px;
-    border: 4px solid;
-    transform: translateY(-50%);
-    border-color: transparent transparent transparent var(--primary-color);
-}
-
 .category-item__link {
     position: relative;
-    right: 0;
     font-size: 1.5rem;
     color: var(--text-color);
     text-decoration: none;
     padding: 4px 16px;
     display: block;
-    transition: right linear 0.1s;
 }
 
 .category-item__link:hover {
-    right: -4px;
     color: var(--primary-color);
 }
 
