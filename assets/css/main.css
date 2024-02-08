@@ -1030,6 +1030,7 @@ header__navbar-icon-link:hover {
 .home-product-item {
     position: relative;
     margin-top: 10px;
+    padding-bottom: 10px;
     background-color: var(--white-color);
 }
 
