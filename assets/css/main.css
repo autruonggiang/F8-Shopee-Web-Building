@@ -1034,6 +1034,7 @@ header__navbar-icon-link:hover {
     background-color: var(--white-color);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
 }
 
 .home-product-item__img {
