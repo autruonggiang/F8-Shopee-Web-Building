@@ -1032,6 +1032,8 @@ header__navbar-icon-link:hover {
     margin-top: 10px;
     padding-bottom: 10px;
     background-color: var(--white-color);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .home-product-item__img {
