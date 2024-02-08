@@ -54,7 +54,6 @@ header__navbar-icon-link:hover {
 
 .header__navbar-user-menu {
     position: absolute;
-    z-index: 1;
     padding-left: 0;
     top: calc(100% + 4px);
     right: 0;
@@ -64,6 +63,7 @@ header__navbar-icon-link:hover {
     list-style: none;
     box-shadow: 0 1px 2px #e0e0e0;
     display: none;
+    z-index: 1;
 }
 
 .header__navbar-user-menu:before {
