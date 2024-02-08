@@ -55,7 +55,7 @@ header__navbar-icon-link:hover {
 .header__navbar-user-menu {
     position: absolute;
     padding-left: 0;
-    top: calc(100% + 4px);
+    top: calc(100% + 6px);
     right: 0;
     width: 160px;
     background-color: var(--white-color);
