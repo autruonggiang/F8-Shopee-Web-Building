@@ -1036,8 +1036,7 @@ header__navbar-icon-link:hover {
     padding-bottom: 12px;
     text-decoration: none;
     background-color: var(--white-color);
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-radius: 2px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     transition: transform ease-in 0.1s;
     will-change: transform;
@@ -1052,7 +1051,9 @@ header__navbar-icon-link:hover {
     padding-top: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: top center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 .home-product-item__name {
@@ -1111,14 +1112,6 @@ i.home-product-item__like-icon-fill {
     display: none;
 }
 
-/* .home-product-item__like--liked {
-
-}
-
-.home-product-item__like-icon {
-
-} */
-
 .home-product-item__rating {
     font-size: 1rem;
     transform: scale(0.8);
@@ -1129,7 +1122,6 @@ i.home-product-item__like-icon-fill {
 
 .home-product-item-star--gold {
     color: var(--star-gold-color);
-
 }
 
 .home-product-item__sold {
@@ -1199,6 +1191,7 @@ i.home-product-item__like-icon-fill {
     height: 36px;
     text-align: center;
     background: rgba(255, 216, 64, 0.94);
+    border-top-right-radius: 2px;
 }
 
 .home-product-item__sale-off::after {
