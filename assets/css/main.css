@@ -582,6 +582,8 @@ header__navbar-icon-link:hover {
 .header__cart-list-item {
     padding-left: 0;
     list-style: none;
+    height: 56vh;
+    overflow-y: auto;
 }
 
 .header__cart-item {
