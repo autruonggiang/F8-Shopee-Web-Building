@@ -1,4 +1,4 @@
-Welcome to our Shopping Hopper store. The website is designed based on the original Shopee page.
+Welcome to our Shopping Hopper store. The website is designed based on the original Shopee page. The Shopping Hopper has more advances than The Band because it is designed in more detail and designed more according to my own wishes.
 
 # Shopping Hopper
 
