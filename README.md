@@ -1,3 +1,5 @@
+Welcome to our Shopping Hopper store. The website is designed based on the original Shopee page.
+
 # Shopping Hopper
 
 If [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) does not support images:
