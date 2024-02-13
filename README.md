@@ -1,7 +1,7 @@
+# Shopping Hopper
 Welcome to our Shopping Hopper store. The website is designed based on the original Shopee page. The Shopping Hopper has more advances than The Band because it is designed in more detail and designed more according to my own wishes.
 
-# Shopping Hopper
-
+## Guides
 If [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) does not support images:
 
 
