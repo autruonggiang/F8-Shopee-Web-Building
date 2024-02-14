@@ -1,12 +1,13 @@
 # Shopping Hopper
-Welcome to our Shopping Hopper store. The website is designed based on the original Shopee page. The Shopping Hopper has more advances than The Band because it is designed in more detail and designed more according to my own wishes.
+Welcome to our [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) store. The website is designed based on the original Shopee page. The Shopping Hopper has more advances than The Band because it is designed in more detail and designed more according to my own wishes.
 
-## Guides
-If [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) does not support images:
+## Installation
 
+```bash
+# Clone this repository
+$ git clone https://github.com/autruonggiang/F8-Shopee-Web-Building.git
 
-## Clone this repository
-` $ git clone https://github.com/autruonggiang/F8-Shopee-Web-Building.git `
+```
 
 Then on Visual Studio Code, open with Live Server (Go Live). The Live Server will run the path by default as `http://127.0.0.1:5500/index.html` to access the website.
 
