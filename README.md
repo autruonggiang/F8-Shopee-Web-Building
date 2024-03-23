@@ -1,4 +1,4 @@
-# Shopping Hopper website
+# Shopping Hopper - FE
 Welcome to our [Shopping Hopper](https://autruonggiang.github.io/F8-Shopee-Web-Building/) store. The website is designed based on the original [Shopee](https://shopee.vn/) page. The Shopping Hopper has more advances than The Band because it is designed in more detail and designed more according to my own wishes.
 
 Visit shop: https://autruonggiang.github.io/F8-Shopee-Web-Building
