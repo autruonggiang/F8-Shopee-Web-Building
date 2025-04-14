@@ -1,7 +1,7 @@
 # Shopping Hopper - FE
 Welcome to the Shopping Hopper store. The website is a custom-built e-commerce layout created for learning purposes. The Shopping Hopper is a customized layout built for learning purposes, styled with personal preferences.
 
-Visit shop: 
+Visit shop: https://f8-shopee-web-building.vercel.app/
 
 ## Installation
 
